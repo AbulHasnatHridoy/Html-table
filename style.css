@@ -1,39 +1,40 @@
 body {
+    background-color: #fff4f1;
+}
 
-    background-color: #f8f9fa;
-  
-  }
-  
-  
-  
-  .card {
-  
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  
-  }
-  
-  
-  
-  .card-header {
-  
-    background-color: #f8f9fa;
-  
-    border-bottom: 2px solid #dee2e6;
-  
-  }
-  
-  
-  
-  .table {
-  
+.card {
+    box-shadow: 0 4px 15px rgba(255, 99, 71, 0.2);
+    border-radius: 12px;
+    border: 1px solid #ff7f50;
+}
+
+.card-header {
+    background-color: #ff7f50;
+    color: #fff8f5;
+    border-bottom: 3px solid #e06b50;
+    font-weight: 600;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.table {
     margin-bottom: 0;
-  
-  }
-  
-  
-  
-  .btn {
-  
-    min-width: 120px;
-  
-  }
+    background-color: #fff8f5;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #ffe9e3;
+}
+
+.btn {
+    min-width: 140px;
+    background-color: #ff6f61;
+    border-color: #e05648;
+    font-weight: 600;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #e05648;
+    border-color: #c44b3a;
+}
